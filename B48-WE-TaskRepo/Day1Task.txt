@@ -36,7 +36,7 @@ As technology continues to evolve, it's essential to stay informed about the lat
 
 To review the difference between HTTP1.1 VS HTTP2 : Refer http://www.http2demo.io/
 
------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Question 2:
 
@@ -79,4 +79,4 @@ modifying the existing property ---> student.age = 24;
 Objects and JSON are almost similar in functionality and structure. The only difference between Objecs and JSON is ,
 In JSON, the key also in double quotes but in object the key doesn't have double quotes.
 
------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
