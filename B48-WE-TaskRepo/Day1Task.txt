@@ -1,6 +1,6 @@
 Question 1:
 
-Write a blog on Differece between HTTP1.1 VS HTTP2 --->
+Write a blog on Differece between HTTP1.1 VS HTTP2 ---->
 
 HTTP stands for Hyper Text Transfer Protocol. It's a protocol to communicate between the server and the client.
 

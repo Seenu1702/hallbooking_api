@@ -14,7 +14,7 @@
     font-weight: bold;
 } */
 /* 
-* {
+* {    ---> universal selector
     font-family: 'Courier New', Courier, monospace;
 }
 
