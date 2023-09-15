@@ -1,0 +1,79 @@
+Question 1:
+
+Write a blog on Differece between HTTP1.1 VS HTTP2 --->
+
+HTTP stands for Hyper Text Transfer Protocol. It's a protocol to communicate between the server and the client.
+The world of web communication has evolved significantly over the years, and at the heart of this evolution are the protocols that govern how data is transmitted between 
+clients and servers. Two of the most important HTTP protocols in use today are HTTP/1.1 and HTTP/2. In this blog, we'll explore the key differences between these two protocols 
+and understand how HTTP/2 improves upon its predecessor.
+
+It is considered as language of the web.
+HTTP/1.1 ---->
+* HTTP/1.1 is considered as the standardised protocol. It is there more than 15 years of extension.
+* HTTP/1.1 has been the workhorse of the internet for many years. It's a text-based protocol that was first standardized in 1997, and while it has served us well, it has some limitations:
+  *  Head-of-Line Blocking: In HTTP/1.1, each request for a resource must be processed sequentially. If one resource takes longer to load, it blocks subsequent requests, 
+    leading to performance bottlenecks.
+  * High Latency: Multiple round trips are required to establish connections and retrieve resources, resulting in high latency, especially on high-latency networks.
+  * Overhead: HTTP/1.1 has significant overhead due to headers and lacks efficient compression mechanisms.
+
+HTTP/2 --->
+To address these shortcomings, HTTP/2 was introduced in 2015. It brings several improvements:
+
+* Multiplexing: HTTP/2 allows multiple requests and responses to be multiplexed over a single TCP connection. This means that resources can be fetched in parallel, 
+  eliminating head-of-line blocking issues.
+* Header Compression: It employs efficient header compression algorithms (HPACK) that reduce overhead and make better use of network resources.
+* Server Push: HTTP/2 enables servers to push resources to the client before they are explicitly requested, reducing the need for additional round trips.
+* Binary Protocol: Unlike HTTP/1.1's text-based format, HTTP/2 uses a binary protocol, which is more efficient to parse and transmit.
+* Prioritization: It allows for resource prioritization, ensuring that more important resources are fetched first.
+
+
+While HTTP/2 offers significant advantages over HTTP/1.1 in terms of speed and efficiency, not all websites have made the transition. 
+The decision to use HTTP/2 depends on factors like server support, content delivery network (CDN) capabilities, and your hosting environment.
+
+In conclusion, HTTP/2 represents a substantial improvement over HTTP/1.1 in terms of speed and efficiency. However, whether you can leverage these benefits depends on various factors. 
+As technology continues to evolve, it's essential to stay informed about the latest web protocols and how they can impact your web applications and user experience.
+
+To review the difference between HTTP1.1 VS HTTP2 : Refer http://www.http2demo.io/
+
+-----------------------------------------------------------------------------------------
+
+Question 2:
+
+Write a blog about objects and its internal representation in Javascrippt --->
+
+JavaScript, one of the most popular programming languages for web development, is known for its versatile data structures. 
+Among these, objects play a pivotal role. In this blog post, we'll dive into the world of JavaScript objects, explore how they are internally represented, 
+and provide examples to help you grasp their power and flexibility. 
+
+In JavaScript, objects are collections of key-value pairs, where each key is a string (or Symbol) and each value can be of any data type, including other objects. 
+Objects are used to represent complex data structures and are the building blocks for many features in the language.
+Internal Representation of ObjectsJavaScript engines, like V8 (used in Chrome) or SpiderMonkey (used in Firefox), store objects in memory using various data structures. 
+One common representation is a hash table, where keys are hashed to improve access time. This allows for efficient lookup of values associated with keys.
+Syntax: 
+
+const student = { 
+      firstName: "Seenu", 
+      lastName: "Subrmaniyan", 
+      age: 24,};
+
+Constructor Function / Prototype function to create object:
+
+function student(firstName, lastName, age) {
+    this.firstName = firstName; 
+    this.lastName = lastName;   
+    this.age = age;}
+const student = new Person("Seenu", "Subrmaniyan", 24);
+
+Both of these methods create objects with the same internal structure. Accessing Object properties can access object properties using dot notation or bracket notation:
+console.log(student.firstName); // Output: "Seenu"
+console.log(student["lastName"]); // Output: "Subramaniyan"
+
+Adding and Modifying PropertiesObjects in JavaScript are mutable, meaning you can add or modify properties dynamically
+Examplet
+Adding a new property --->student.gender = "Male";  
+modifying the existing property ---> student.age = 24; 
+
+Objects and JSON are almost similar in functionality and structure. The only difference between Objecs and JSON is ,
+In JSON, the key also in double quotes but in object the key doesn't have double quotes.
+
+-----------------------------------------------------------------------------------------
