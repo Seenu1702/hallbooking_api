@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Forms</title>
+        <link rel="stylesheet" href="htmlforms.css">
+    </head>
+    <body>
+        <table class="table">
+            <form action="">
+                <tr>
+                    <td>
+                        <label for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input id="fname" type="text">
+                    </td>                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input id="lname" value="" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <input id="address" name="address" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pincode">Pincode</label>
+                    </td>
+                    <td>
+                        <input id="pincode"  type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender" >Gender</label>
+                    </td>
+                    <td>
+                        <input name="gender" id="male" type="radio" value="Male">Male
+                        <input name="gender"  id="female" type="radio" value="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Choice Of Food</label>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option>---Select---</option>
+                            <option value="dosa">Dosa</option>
+                            <option value="idly">Idly</option>
+                            <option value="poori">Poori</option>
+                            <option value="pongal">Pongal</option>
+                            <option value="vada">Vada</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="state" >State</label>
+                    </td>
+                    <td>
+                        <input id="state" name="state" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        <input id="country" name="country" type="text">
+                    </td>
+                </tr>                
+            </form>
+        </table>
+
+        <script src="htmlforms.js"></script>
+    </body>
+</html>
