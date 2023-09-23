@@ -1,9 +1,12 @@
+// console.log(document);
+
 // let header = document.createElement('h1');
 
 // header.textContent = 'Dynamic Heading';
 
 // // create a paragraph html element
 // let paragraph = document.createElement('p');
+// console.log(paragraph);
 
 // // set the content of the paragraph element
 // paragraph.textContent = 'This is a dynamically created paragraph element';
@@ -128,18 +131,18 @@
 
 // document.getElementById('container').innerHTML = '<b>this is inside the div</b>';
 
-let form = document.createElement('form');
+// let form = document.createElement('form');
 
-let emailInput = document.createElement('input');
+// let emailInput = document.createElement('input');
 
-emailInput.setAttribute('type', 'email');
+// emailInput.setAttribute('type', 'email');
 
-form.appendChild(emailInput);
+// form.appendChild(emailInput);
 
-let submitButton = document.createElement('button');
+// let submitButton = document.createElement('button');
 
-submitButton.textContent = 'Submit';
+// submitButton.textContent = 'Submit';
 
-form.appendChild(submitButton);
+// form.appendChild(submitButton);
 
-console.log(form);
+// console.log(form);
