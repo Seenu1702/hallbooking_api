@@ -1,3 +1,6 @@
+// console.log(window); entire window properties of the particular tab of the browser   / default built in object available in the javascript
+// console.log(window.document);
+
 // console.log(window.innerWidth, window.innerHeight);
 
 // let sayHello = () => {
@@ -6,6 +9,7 @@
 
 // display a message after a delay
 // window.setTimeout(sayHello, 5000);
+
 // window.setTimeout(() => {
 //     document.writeln('hello guest!');
 // }, 3000);
@@ -20,6 +24,9 @@
 // setTimeout(() => {
 //     downloadButton.removeAttribute('disabled');
 // }, 5000);
+
+
+
 // let countDown = 10;
 // setInterval(() => {
 //     console.log(countDown);
@@ -39,10 +46,12 @@
 
 // let countDownInterval = setInterval(updateCountDown, 1000);
 
+
+
 // let paragraph = document.getElementById('countdown');
 // let downloadButton = document.getElementById('download');
 
-// let secondsLeft = 10;
+// let secondsLeft = 5;
 
 // let updateCountDown = () => {
 //     if (secondsLeft >= 0) {
@@ -50,15 +59,21 @@
 //         secondsLeft--;// secondsLeft = secondsLeft - 1
 //     } else {
 //         clearInterval(countDownInterval);
+//         paragraph.textContent = '';
 //         downloadButton.removeAttribute('disabled');
 //     }
 // }
 
 // let countDownInterval = setInterval(updateCountDown, 1000);
 
+
+
+
 // let name = window.prompt('enter your name', 'guest');
 
 // console.log(`hi ${name}`);
+
+
 
 // alert('hello world!');
 
@@ -70,6 +85,9 @@
 //     console.log('action cancelled');
 // }
 
+
+
+
 // event handling
 
 // select the button
@@ -80,12 +98,12 @@
 //     console.log('button clicked!');
 // });
 
-const divElement = document.getElementById('divElement');
+// const divElement = document.getElementById('divElement');
 
-divElement.addEventListener('mouseover', function () {
-    divElement.style.backgroundColor = 'blue';
-});
+// divElement.addEventListener('mouseover', function () {
+//     divElement.style.backgroundColor = 'blue';
+// });
 
-divElement.addEventListener('mouseout', function () {
-    divElement.style.backgroundColor = 'white';
-});
+// divElement.addEventListener('mouseout', function () {
+//     divElement.style.backgroundColor = 'white';
+// });
