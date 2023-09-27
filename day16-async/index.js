@@ -1,19 +1,21 @@
 // get the reference of the button element
-let button = document.getElementById('button');
+// let button = document.getElementById('button');
 
-function anotherFunction() {
-    console.log('another function called');
-}
+// function anotherFunction() {
+//     console.log('another function called');
+// }
 
-function handleClick(anotherFunction) {
-    console.log('button clicked');
-    anotherFunction();
-}
+// function handleClick(anotherFunction) {
+//     console.log('button clicked');
+//     anotherFunction();
+// }
+
+
 
 // attach an event listener
-button.addEventListener('click', function () {
-    handleClick(anotherFunction);
-});
+// button.addEventListener('click', function () {
+//     handleClick(anotherFunction);
+// });
 
 // function outerFunction(x) {
 //     function innerFunction(y) {

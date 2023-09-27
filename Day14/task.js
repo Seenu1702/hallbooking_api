@@ -32,6 +32,12 @@ let populateStates = (stateDropdown, data) => {
     districtDropdown.appendChild(option);
 }
 
+
+countryDropdown.addEventListener('change', function () {
+    populateStates(stateDropdown, states[countryDropdown.value]);
+});
+
+
 let populateDistricts = (districtDropdown, data) => {
     districtDropdown.innerHTML = '';
     let option = document.createElement('option');
@@ -45,9 +51,7 @@ let populateDistricts = (districtDropdown, data) => {
     });
 }
 
-countryDropdown.addEventListener('change', function () {
-    populateStates(stateDropdown, states[countryDropdown.value]);
-});
+
 
 stateDropdown.addEventListener('change', function () {
     populateDistricts(districtDropdown, districts[stateDropdown.value]); 
