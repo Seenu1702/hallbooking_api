@@ -5,16 +5,16 @@
 // header.textContent = 'Dynamic Heading';
 
 // // create a paragraph html element
-// let paragraph = document.createElement('p');
+let paragraph = document.createElement('p');
 // console.log(paragraph);
 
 // // set the content of the paragraph element
-// paragraph.textContent = 'This is a dynamically created paragraph element';
+paragraph.textContent = 'This is a dynamically created paragraph element';
 
 // // append the paragraph element to the html body
-// // document.body.appendChild(paragraph);
+document.body.appendChild(paragraph);
 
-// // document.getElementById('firstDiv').append(header, paragraph);
+// document.getElementById('firstDiv').append(header, paragraph);
 
 // // create a div
 // let firstDiv = document.createElement('div');
