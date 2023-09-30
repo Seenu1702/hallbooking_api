@@ -21,6 +21,6 @@
 // sayHello();
 
 // IIFE: Immediately Invoked Function Expression
-(() => {
-    console.log('hello');
-})();
+// (() => {
+//     console.log('hello');
+// })();

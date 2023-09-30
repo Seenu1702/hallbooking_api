@@ -29,7 +29,7 @@
 // // let is block-scoped
 // // var is function scoped
 // for (var i = 1; i <= 10; i++);
-
+// for (let i = 1; i <= 10; i++);/
 // console.log(i); // reference error: i is not defined
 
 // let x = 10; // local x
@@ -128,20 +128,20 @@
 
 // console.log(numbers);
 
-const object = {
-    name: 'krish',
-    age: 10
-}
+// const object = {
+//     name: 'krish',
+//     age: 10
+// }
 
 // this is allowed
 // object['name'] = 'sathish';
 
 // this is not allowed
 // type error: assignment to constant variable
-object = {
-    name: 'sathish',
-    age: 30
-}
+// object = {
+//     name: 'sathish',
+//     age: 30
+// }
 
-console.log(object);
+// console.log(object);
 

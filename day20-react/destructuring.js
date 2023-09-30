@@ -66,19 +66,19 @@
 // console.log(`After swapping a = ${a}, b = ${b}`);
 
 // Object Destructuring
-let person = {
-    name: 'sathish',
-    age: 30
-}
+// let person = {
+//     name: 'sathish',
+//     age: 30
+// }
 
 // object destructuring
 // let { name, age } = person; // it will work
 
 // let { personName, personAge } = person; // it will not work
 
-let { name: personName, age: personAge } = person; 
+// let { name: personName, age: personAge } = person; 
 
-console.log(personName, personAge);
+// console.log(personName, personAge);
 
 // console.log(name, age);
 
