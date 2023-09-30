@@ -5,7 +5,7 @@ let messages = document.getElementById('messages');
 let greetings = document.getElementById('greetings');
 
 greetings.addEventListener('click', ()=>{
-    
+    greetings.style.display = 'none';   
 
 function function10(number,callback){
     setTimeout(function(){
