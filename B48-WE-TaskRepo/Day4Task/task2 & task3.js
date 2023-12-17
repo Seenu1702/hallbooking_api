@@ -27,3 +27,28 @@ var request = new XMLHttpRequest();
             // send the request
             xhr.send();
         </script> */}
+
+
+{/* <script>
+            
+            let xhr = new XMLHttpRequest();
+
+            // open a connection
+            xhr.open('GET', 'https://restcountries.com/v3.1/all', true);
+
+            // after the request is processed
+            xhr.onload = function(){
+                let responseObject = JSON.parse(this.responseText);
+
+                for(country of responseObject){
+                    console.log(`Name : ${country.name.common},Population :${country.population},Region : ${country.region},Sub-region : ${country.subregion}`);
+                }
+
+                
+            }
+
+            // send the request
+            xhr.send();
+</script> */}
+
+        
