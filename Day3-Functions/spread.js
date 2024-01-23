@@ -14,7 +14,7 @@
 
 // let array1 = [1, 2, 3, 4];
 
-// let array2 = array1;
+// let array2 = array1; (copy by reference)
 
 // array1[0] = 10;
 // array2[1] = 12;
@@ -24,7 +24,7 @@
 
 // let array1 = [1, 2, 3, 4];
 
-// let array2 = [...array1];
+// let array2 = [...array1]; (copy by vale)
 
 // array1[0] = 10;
 
