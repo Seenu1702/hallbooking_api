@@ -6,7 +6,7 @@ function isBalanced(expression) {
     // for (let bracket of expression) {
     //     if (bracket == '{' || bracket == '(') {
     //         array.push(bracket);
-    //     } else if (bracket == '}') {
+    //     } else if (bracket == '}') { 
     //         if (array.length == 0) return false;
     //         else if (array[array.length - 1] != '{') return false;
     //         else array.pop();

@@ -21,7 +21,7 @@
 // console.log(student101);
 // console.log(student102);
 // ----------------------------
-
+    
 
 // class Student {
 //     constructor(name, age, status = 'student') {
