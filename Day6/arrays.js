@@ -1,4 +1,4 @@
-function log(...numbers) {
+    function log(...numbers) {
     console.log(...numbers);
 }
 

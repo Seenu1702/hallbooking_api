@@ -1,5 +1,7 @@
 // console.log(window); entire window properties of the particular tab of the browser   / default built in object available in the javascript
 // console.log(window.document);
+// console.log(window.location);
+// console.log(window.location.protocol);  
 
 // console.log(window.innerWidth, window.innerHeight);
 
