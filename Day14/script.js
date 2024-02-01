@@ -12,8 +12,13 @@
 // display a message after a delay
 // window.setTimeout(sayHello, 5000);
 
+
 // window.setTimeout(() => {
-//     document.writeln('hello guest!');
+//     console.log('hello guest!');
+// }, 3000);
+
+// window.setTimeout(() => {
+//     document.writeln('hello guest!');    //to render in browser
 // }, 3000);
 
 // change the background body color after 3 seconds
@@ -28,6 +33,9 @@
 // }, 5000);
 
 
+// setInterval(() => {
+//     console.log("hello"); 
+// }, 1000);
 
 // let countDown = 10;
 // setInterval(() => {
