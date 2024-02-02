@@ -20,13 +20,13 @@ function function3(callback) {
     }, 1500);
 }
 
-// function1(function () {
-//     console.log('function inside function1');
-//     function2(function () {
-//         console.log('function inside function2');
-//         function3(function () {
-//             console.log('function inside function3');
-//             console.log('all functions completed');
-//         });
-//     });
-// });
+function1(function () {
+    console.log('function inside function1');
+    function2(function () {
+        console.log('function inside function2');
+        function3(function () {
+            console.log('function inside function3');
+            console.log('all functions completed');
+        });
+    });
+});
