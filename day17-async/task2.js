@@ -26,3 +26,6 @@ fetch('https://restcountries.com/v3.1/all')
         })
     })
     .catch(error => console.error('error fetching data:', error));
+
+
+
