@@ -51,7 +51,7 @@
 // deep copy
 // let array1 = [1, 2, 3];
 
-// let array2 = [...array1]; // the reference of array1 is copied to array2 not the values
+// let array2 = [...array1]; // the value of array1 is copied to array2 not the reference
 // // both the array1 and array2 references now point to the same object
 
 // array1[0] = 11;
