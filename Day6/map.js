@@ -4,17 +4,17 @@
 //     return [index, value];
 // }));
 
-// let fruits = ['apple', 'banana', 'orange', 'grapes', 'watermelon', 'papaya', 'pineapple'];
+let fruits = ['apple', 'banana', 'orange', 'grapes', 'watermelon', 'papaya', 'pineapple'];
 
-// let sortedFruits = fruits.map(fruit => {
-//     return [fruit, fruit.length];
-// });
-
-// sortedFruits.sort((a, b) => a[1] - b[1]);
-
-// console.log(sortedFruits.map(value => {
-//     return value[0];
-// }));
+let sortedFruits = fruits.map(fruit => {
+    return [fruit, fruit.length];
+});
+console.log(sortedFruits);
+sortedFruits.sort((a, b) => a[1] - b[1]);
+console.log(sortedFruits);
+console.log(sortedFruits.map(value => {
+    return value[0];
+}));
 
 // let fruits = ['apple', 'banana', 'orange', 'grapes', 'watermelon', 'papaya', 'pineapple'];
 
