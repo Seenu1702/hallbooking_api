@@ -363,8 +363,21 @@ const sortedValues = values.toSorted((a, b) => a - b);
 console.log(sortedValues); // [1, 2, 10, 21]
 console.log(values); // [1, 10, 21, 2]
 
-
-
-
-
 **/
+
+/*
+Comparing two JavaScript objects always returns false.
+
+String Method:
+
+charAt():
+The charAt() method returns the character at a specified index (position) in a string:
+
+let text = "HELLO WORLD";
+let char = text.charAt(0);
+
+
+at()
+const name = "W3Schools";
+let letter = name.at(2);
+*/
