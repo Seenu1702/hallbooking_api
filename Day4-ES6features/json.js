@@ -40,7 +40,7 @@ let person = {
 //     console.log(key, value);
 // }
 
-let json = '{"name":"krish","age":25,"phone":9080706050,"address":"chennai","pincode":600024}';
+let json = {"name":"krish","age":25,"phone":9080706050,"address":"chennai","pincode":600024};
 
 console.log(Object.entries(person));
 
