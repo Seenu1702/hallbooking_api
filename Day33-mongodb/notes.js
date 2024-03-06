@@ -93,7 +93,7 @@
                 example: db.users.find();
 
               b. Find all documents with a specific fields in a collection
-
+                                            comparision/matching     projection
                 query: db.collection_name.find({}, {key: 1, key: 1, key: 1});
 
                 or 
@@ -101,6 +101,9 @@
                 query: db.collection_name.find({}, {key: 0, key: 0, key: 0});
 
                 example: db.users.find({}, {name: 1, age: 1, _id: 0});
+
+
+            db.users.find({city: 'London'} {})
 
         
         Query Operators in MongoDB
@@ -114,6 +117,12 @@
             h. in operator - $in - finds documents which satisfy the condition in a list of values
             i. not in operator - $nin - finds documents which satisfy the condition not in a list of values
             j. equals operator - $eq - finds documents which satisfy the condition equal to a value
+
+
+            db.users.find({ $or: [{city: "New York"}, {city: "London"}]})
+            db.users.find({ $or: [{city: "New York"}, {city: "London"}]}, {name:1, _id:0})
+
+            db.users.find({city: { $in: ['London', 'New York']}})
 
     Tasks:
 
