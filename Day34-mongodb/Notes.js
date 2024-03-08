@@ -1,4 +1,11 @@
 /*
+
+
+mongodb atlas:
+
+    ip: 0.0.0.0/0    universal ip
+ 
+
     Cursor: a pointer to the result set of a query. By default, the cursor is not
     populated with the result of the query. To populate the cursor, you need to
     iterate the cursor.
