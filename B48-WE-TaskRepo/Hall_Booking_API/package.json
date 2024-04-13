@@ -1,0 +1,28 @@
+{
+  "name": "hall_booking_api",
+  "version": "1.0.0",
+  "description": "Hall Booking API task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seenu1702/hallbooking_api.git"
+  },
+  "author": "Seenu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seenu1702/hallbooking_api/issues"
+  },
+  "homepage": "https://github.com/Seenu1702/hallbooking_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
