@@ -6,7 +6,7 @@ let person = {
     pincode: 600024,
     skills: ['javascript', 'html']
 };
-// console.log(typeof person);
+console.log(typeof person);
 // let json = JSON.stringify(person);
 // let jso = JSON.parse(json);
 // console.log(jso);

@@ -35,7 +35,8 @@
 //     ...obj2
 // };
 
-// console.log(name: 'sathish', age: 25);
+// console.log(combinedObject);
+// o/p {name: 'sathish', age: 25}
 
 // shallow copy
 

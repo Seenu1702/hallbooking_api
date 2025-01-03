@@ -1,3 +1,7 @@
+// code runner extension --> just click play button to run the code
+// if needs to run from the terminal --> cd foldername
+// node filename
+// ex: node function.js
 // console.log('hi students!');
 
 // functions --> block of statements which gets executed whenever we make a call of it
@@ -104,8 +108,7 @@
 // console.log(add(add(5, 6), 34));
 
 // function add(x, y) {
-//     let result = x + y;
-//     return result;
+//     return x + y;
 // }
 
 // let result = add(5, 6);
