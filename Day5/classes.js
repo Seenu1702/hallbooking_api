@@ -5,6 +5,7 @@
 //     // that gets called whenever we create an object to this class
 //     constructor() {
 //         // console.log('constructor is called');
+//          this --> current obect instance
 //         this.name = 'Guest';
 //         this.age = 21;
 //     }
