@@ -2,16 +2,18 @@
     border: 1px solid black;
     display: flex;
     /* height: 300px;
-    align-items: center;
-    justify-content: center; */
+    align-items: center;  vertical 
+    justify-content: center;  horizontal*/
     flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column; */
     flex-wrap: wrap;
 }
 
 .green, .red, .blue {
     padding: 20px;
     margin: 10px;
-    flex-basis: 75px;
+    flex-basis: 75px; /*initial size*/
 }
 
 .green {
